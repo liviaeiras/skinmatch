@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkinMatch | Base Adaptável</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="top-bar">
+    <div class="container">
+      <div class="logo">
+        <span>SkinMatch</span>
+        <small>by <i class="ri-leaf-fill"></i> Natural Beauty</small>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#produto">Produto</a></li>
+          <li><a href="#beneficios">Benefícios</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="dark-mode-toggle" aria-label="Modo Escuro">
+          <i class="ri-moon-line"></i>
+        </button>
+        <div class="cart">
+          <i class="ri-shopping-bag-line"></i>
+          <span class="cart-count">0</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section Impactante -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="promo-label">
+        <span>PROMOÇÃO RELÂMPAGO</span>
+        <div class="timer" id="countdown">02:59:59</div>
+      </div>
+      <h1>Base que <span class="highlight">se adapta</span> à sua pele</h1>
+      <p class="subtitle">A revolucionária base facial com tecnologia de ajuste automático. 100% natural e cruelty-free.</p>
+      <div class="cta-buttons">
+        <a href="#produto" class="btn-primary">Compre por R$59,99</a>
+        <a href="#beneficios" class="btn-secondary">
+          Saiba mais <i class="ri-arrow-right-line"></i>
+        </a>
+      </div>
+      <div class="trust-badges">
+        <div class="badge"><i class="ri-checkbox-circle-fill"></i> Frete grátis</div>
+        <div class="badge"><i class="ri-checkbox-circle-fill"></i> 7 dias para trocar</div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="img/produto.png" alt="Base SkinMatch" class="product-photo">
+      <div class="floating-label">
+        <div class="price">
+          <span class="old-price">R$79,90</span>
+          <span class="new-price">R$59,99</span>
+        </div>
+        <span class="discount">-25% OFF</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Benefícios -->
+  <section id="beneficios" class="benefits-section">
+    <h2>Por que escolher SkinMatch?</h2>
+    <div class="benefits-grid">
+      <div class="benefit-card">
+        <div class="benefit-icon">
+          <i class="ri-palette-line"></i>
+        </div>
+        <h3>Tom Perfeito</h3>
+        <p>Reage ao pH da sua pele para um acabamento natural impecável.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">
+          <i class="ri-leaf-line"></i>
+        </div>
+        <h3>Ingredientes Limpos</h3>
+        <p>Fórmula com 98% ingredientes naturais e veganos.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon">
+          <i class="ri-timer-line"></i>
+        </div>
+        <h3>Aplicação Rápida</h3>
+        <p>Não precisa de correção - perfeita desde a primeira aplicação.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção do Produto com Quantidade -->
+  <section id="produto" class="product-section">
+    <div class="product-image">
+      <img src="img/produto.png" alt="Base SkinMatch">
+      <div class="product-badge">Mais Vendido</div>
+    </div>
+    <div class="product-details">
+      <h2>Base SkinMatch</h2>
+      <div class="price-container">
+        <span class="price">R$ 59,99</span>
+        <span class="installments">ou 3x de R$ 20,00</span>
+      </div>
+      
+      <div class="quantity-selector">
+        <label>Quantidade:</label>
+        <div class="quantity-control">
+          <button class="quantity-btn minus"><i class="ri-subtract-line"></i></button>
+          <span class="quantity">1</span>
+          <button class="quantity-btn plus"><i class="ri-add-line"></i></button>
+        </div>
+      </div>
+
+      <button class="btn-add-to-cart">
+        <i class="ri-shopping-cart-fill"></i> Adicionar ao Carrinho
+      </button>
+
+      <div class="product-info">
+        <h3>Detalhes do Produto</h3>
+        <ul>
+          <li><i class="ri-checkbox-circle-fill"></i> Adapta-se automaticamente ao seu tom de pele</li>
+          <li><i class="ri-checkbox-circle-fill"></i> Livre de parabenos, fragrâncias e crueldade</li>
+          <li><i class="ri-checkbox-circle-fill"></i> Duração de 12 horas sem borrar</li>
+          <li><i class="ri-checkbox-circle-fill"></i> Ideal para todos os tipos de pele</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Contato -->
+  <section id="contato" class="contact-section">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2>Fale Conosco</h2>
+        <p><i class="ri-mail-line"></i> contato@skinmatch.com</p>
+        <p><i class="ri-phone-line"></i> (21) 12345-6789</p>
+        <div class="social-links">
+          <a href="#"><i class="ri-instagram-line"></i></a>
+        </div>
+      </div>
+      <div class="newsletter">
+        <h2>Receba Novidades</h2>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Seu melhor e-mail" required>
+          <button type="submit">Assinar <i class="ri-arrow-right-line"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>© 2025 SkinMatch. Todos os direitos reservados.</p>
+      <div class="payment-methods">
+        <i class="ri-visa-line"></i>
+        <i class="ri-mastercard-line"></i>
+        <i class="ri-paypal-line"></i>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Modo Escuro
+    const darkModeToggle = document.querySelector('.dark-mode-toggle');
+    darkModeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      const icon = darkModeToggle.querySelector('i');
+      icon.className = document.body.classList.contains('dark-mode') 
+        ? 'ri-sun-line' 
+        : 'ri-moon-line';
+    });
+
+    // Timer Promocional
+    function updateCountdown() {
+      let timeLeft = 3 * 60 * 60; // 3 horas em segundos
+      const timer = setInterval(() => {
+        const hours = Math.floor(timeLeft / 3600);
+        const minutes = Math.floor((timeLeft % 3600) / 60);
+        const seconds = timeLeft % 60;
+        
+        document.getElementById('countdown').textContent = 
+          `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        
+        if (timeLeft <= 0) clearInterval(timer);
+        timeLeft--;
+      }, 1000);
+    }
+    updateCountdown();
+
+    // Controle de Quantidade
+    const minusBtn = document.querySelector('.minus');
+    const plusBtn = document.querySelector('.plus');
+    const quantityDisplay = document.querySelector('.quantity');
+    let quantity = 1;
+
+    minusBtn.addEventListener('click', () => {
+      if (quantity > 1) {
+        quantity--;
+        quantityDisplay.textContent = quantity;
+      }
+    });
+
+    plusBtn.addEventListener('click', () => {
+      quantity++;
+      quantityDisplay.textContent = quantity;
+    });
+
+    // Carrinho
+    const addToCartBtn = document.querySelector('.btn-add-to-cart');
+    const cartCount = document.querySelector('.cart-count');
+    let cartItems = 0;
+
+    addToCartBtn.addEventListener('click', () => {
+      cartItems += quantity;
+      cartCount.textContent = cartItems;
+      
+      // Efeito visual
+      addToCartBtn.innerHTML = '<i class="ri-check-line"></i> Adicionado!';
+      setTimeout(() => {
+        addToCartBtn.innerHTML = '<i class="ri-shopping-cart-fill"></i> Adicionar ao Carrinho';
+      }, 2000);
+      
+      quantity = 1;
+      quantityDisplay.textContent = '1';
+    });
+  </script>
+</body>
+</html>
